@@ -1,0 +1,51 @@
+.container-space{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
+    margin-top: 50px;
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    width: 30vw;
+    height: 60vh;
+}
+
+.space p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+
+.space h1 {
+    color: white;
+    font-size: 100px;
+}
+
+.space span {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: justify;
+    font-size: 20px;
+}
+
+.explore {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.explore h2 {
+    width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 28px;
+    transform: translate(0 , 350%);
+    margin-top: auto;
+    margin-bottom: auto;
+}
