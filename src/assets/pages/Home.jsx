@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return (
         <div>
-            <h1> Teste 123</h1>
         <header>
         <img src='./img/shared/logo.svg'/>
         <nav className='menu'>
