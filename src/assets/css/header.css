@@ -7,12 +7,10 @@ header {
 }
 
 .menu {
-    width: 60%;
+    width: 50%;
     padding: 20px;
     border-radius: 5px;
     background-color: rgba(128, 128, 128, 0.253);
-}
-.menu ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,12 +18,14 @@ header {
     list-style: none;
 }
 
-.menu ul li a{
+.icones-menu{ 
     text-decoration: none;
     color: white;
     border-bottom: 2px solid transparent;
+    font-size: 18px;
+    word-spacing: 10px;
 }
 
-.menu ul li a:hover{
+.icones-menu:hover{
     border-bottom: 2px solid white;
 }

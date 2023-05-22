@@ -5,4 +5,5 @@ body {
   background-image: url('../public/img/home/background-home-desktop.jpg');
   background-size: cover;
   width: 100vw;
+  font-family: 'Rubik', sans-serif;
 }

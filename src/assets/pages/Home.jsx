@@ -1,24 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
         <div>
-            <h1> Teste 123</h1>
-        <header>
-        <img src='./img/shared/logo.svg'/>
-        <nav className='menu'>
-          <ul>
-            <li><a href='#'>00 HOME</a></li>
-            
-            <li><Link to='/Destination'>01 DESTINATION</Link></li>
-            <li><a href='#crew'>02 CREW</a></li>
-            <li><a href='#tecnology'>03 TECNOLOGY</a></li>
-          </ul>
-        </nav>
-      </header>
-
-        <div className='container-space'>
+       <div className='container-space'>
           <section className='space'>
         <p>SO, YOU WANT TO TRAVEL TO</p>
         <h1>SPACE</h1>
@@ -39,6 +24,11 @@ const Home = () => {
 export default Home
 
 /*
+
+<div>
+        
+
+        
 function Home () {
     return(
         <div className='container-space'>

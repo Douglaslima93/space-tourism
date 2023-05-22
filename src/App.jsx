@@ -2,14 +2,17 @@ import './App.css'
 import './assets/css/header.css'
 import './assets/css/main.css'
 import './components/Routes'
-import { Routes } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
+import Navbar from './components/Navbar'
 
 
 function App() {
   
   return (
     <div>
-      <Routes/>
+      <Navbar/>
+      <p></p>
+      <Outlet/>
     </div>
   )
 }

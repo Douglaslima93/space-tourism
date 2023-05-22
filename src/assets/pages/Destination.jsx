@@ -1,7 +1,9 @@
-function Destination () {
+import React from 'react'
+
+const Destination = () => {
     return (
         <div>
-            <h1>Destino</h1>
+            <h1>Pagina de destino</h1>
         </div>
     )
 }
