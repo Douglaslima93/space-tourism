@@ -3,7 +3,24 @@ import React from 'react'
 const Home = () => {
     return (
         <div>
+<<<<<<< HEAD
        <div className='container-space'>
+=======
+        <header>
+        <img src='./img/shared/logo.svg'/>
+        <nav className='menu'>
+          <ul>
+            <li><a href='#'>00 HOME</a></li>
+            
+            <li><Link to='/Destination'>01 DESTINATION</Link></li>
+            <li><a href='#crew'>02 CREW</a></li>
+            <li><a href='#tecnology'>03 TECNOLOGY</a></li>
+          </ul>
+        </nav>
+      </header>
+
+        <div className='container-space'>
+>>>>>>> 0ba7c4f4ac7521779a8d75271ba56f413b9d609b
           <section className='space'>
         <p>SO, YOU WANT TO TRAVEL TO</p>
         <h1>SPACE</h1>
