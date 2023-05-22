@@ -1,10 +1,14 @@
 import React from 'react'
+import YourDestination from '../../components/YourDestination'
+import { Outlet } from 'react-router-dom'
 
 const Destination = () => {
     return (
         <div>
-            <h1>Pagina de destino</h1>
-        </div>
+            <h1>PICK YOUR DESTINATION</h1>
+            <YourDestination/>
+            <Outlet/>
+      </div>
     )
 }
 
