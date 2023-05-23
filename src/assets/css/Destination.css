@@ -1,0 +1,15 @@
+.destination {
+    width: 100%;
+}
+
+.carousel  {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner div{
+    display: flex;
+    flex-direction: row;
+
+}
