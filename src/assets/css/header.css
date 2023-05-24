@@ -28,4 +28,5 @@ header {
 
 .icones-menu:hover{
     border-bottom: 2px solid white;
+    color: white;
 }

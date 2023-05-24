@@ -1,15 +1,40 @@
+body {
+    background-color: aqua;
+}
+
 .destination {
     width: 100%;
+    height: 100vh;
+    
+}
+
+.destination h1 {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
 }
 
 .carousel  {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.carousel-inner div{
+.section-carousel{
+    width: 80%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+}
 
+.section-carousel div {
+    width: 90%;
+    text-align: left;
+    color: white;
 }
