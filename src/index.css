@@ -4,6 +4,8 @@
 body {
   background-image: url('../public/img/home/background-home-desktop.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
   width: 100vw;
+  height: 100vh;
   font-family: 'Rubik', sans-serif;
 }
